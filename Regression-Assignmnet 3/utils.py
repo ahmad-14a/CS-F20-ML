@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def load_data():
     data = np.loadtxt("data/ex1data1.txt", delimiter=',')
     X = data[:,0]
@@ -11,3 +12,4 @@ def load_data_multi():
     X = data[:,:2]
     y = data[:,2]
     return X, y
+
